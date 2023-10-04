@@ -1,239 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="/style.css"/>
+    <link
+        href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.css"
+        rel="stylesheet"
+        />
+    <link rel="stylesheet" href="/vendors/fontawesomev/css/all.css" />
+    <link rel="stylesheet" href="/vendors/fontawesomev4/css/font-awesome.css" />
+    <link rel="stylesheet" href="/kanbas/kanbasNavigation/index.css"/>
+    <link rel="stylesheet" href="/kanbas/Courses/courseNavigation/index.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <table width="100%">
-        <tbody>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/style.css"/>
+    <link
+        href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.css"
+        rel="stylesheet"
+        />
+    <link rel="stylesheet" href="/vendors/fontawesomev/css/all.css" />
+    <link rel="stylesheet" href="/vendors/fontawesomev4/css/font-awesome.css" />
+    <link rel="stylesheet" href="/kanbas/kanbasNavigation/index.css"/>
+    <link rel="stylesheet" href="/kanbas/Courses/courseNavigation/index.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wd-flex-row-container">
+        <div class="wd-bg-color-black">
+            <ul class="wd-kanbas-navigation ">
+            <li class=" wd-account wd-active "><a href="/kanbas/Accounts/Profile/profile.html">
+                <i class="fa-regular fa-user fa-2x" style="color: #ebebeb;"></i>
+                Account</a></li>
+            <li><a href="#">
+                <i class="fa fa-tachometer fa-3x" aria-hidden="true"></i>
+                DashBoard</a></li>
+            <li class="wd-active" ><a href="/kanbas/Courses/Home/home.html">
+                <i class="fa fa-book fa-3x" aria-hidden="true"></i>
+                Courses</a></li>
+            <li><a href="#">
+                
+                <i class="fa fa-calendar fa-3x" aria-hidden="true"></i>
+                Calendar</a></li>
+            <li><a href="#">
+                <i class="fa fa-inbox fa-3x" aria-hidden="true"></i>
+                Inbox
+            </a></li>
+            <li><a href="#">
+                <i class="fa fa-clock-o fa-3x" aria-hidden="true"></i>
+                History</a></li>
+            <li><a href="#">
+                <i class="fa fa-television fa-3x" aria-hidden="true"></i>
+                Studio</a></li>
+            <li><a href="#">
+                <i class="fa fa-question-circle fa-3x" aria-hidden="true"></i>
+                Help</a></li>
+        </ul></div>
+        <div><ul class="wd-course-navigation">
+            <li><a href="/kanbas/Courses/Home/home.html">Home</a></li>
+            <li><a href="/kanbas/Courses/Modules/modules.html">Modules</a></li>
+            <li><a href="#">Piazza</a></li>
+            <li><a href="#">Zoom Meetings</a></li>
+            <li><a href="/kanbas/Courses/Assignments/assignments.html">Assingments</a></li>
+            <li><a href="#">Quizzes</a></li>
+            <li class="wd-active"><a href="/kanbas/Courses/Grades/grades.html">Grades</a></li>
+            <li><a href="#">People</a></li>
+            <li><a href="#">Panopto Video</a></li>
+            <li><a href="#">Discussions</a></li>
+            <li><a href="#">Announcements</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Files</a></li>
+            <li><a href="#">Rubrics</a></li>
+            <li><a href="#">Outcomes</a></li>
+            <li><a href="#">Collaborations</a></li>
+            <li><a href="#">Syllabus</a></li>
+            <li><a href="/kanbas/Courses/Settings/CourseDetails/coursedetails.html">Settings</a></li>
+        </ul>   </div>
+        <div class="table-responsive">  <select>
+            <option>Gradebook</option>
+            <option>UnPublish</option>
+        </select>
+        <button>Import</button>
+        <select>
+            <option>Export</option>
+            <option>UnPublish</option>
+        </select>
+        <button>Configure</button>
+        
+        <table class="table">
             <tr>
-                <td valign="top">
-                    <ul>
-                        <li><a href="/kanbas/Accounts/Profile/profile.html">Account</a></li>
-                        <li><a href="#">DashBoard</a></li>
-                        <li><a href="/kanbas/Courses/Home/home.html">Courses</a></li>
-                        <li><a href="#">Calendar</a></li>
-                        <li><a href="#">Inbox</a></li>
-                        <li><a href="#">History</a></li>
-                        <li><a href="#">Studio</a></li>
-                        <li><a href="#">Help</a></li>
-                    </ul>
+                <td>Student Names
+                    <input title="Type the name of the student to search for"  placeholder="Search Students"/>
                 </td>
-                <td valign="top">
-                    <ul>
-                        <li><a href="/kanbas/Courses/Home/home.html">Home</a></li>
-                        <li><a href="/kanbas/Courses/Modules/modules.html">Modules</a></li>
-                        <li><a href="#">Piazza</a></li>
-                        <li><a href="#">Zoom Meetings</a></li>
-                        <li><a href="/kanbas/Courses/Assignments/assignments.html">Assingments</a></li>
-                        <li><a href="#">Quizzes</a></li>
-                        <li><a href="/kanbas/Courses/Grades/grades.html">Grades</a></li>
-                        <li><a href="#">People</a></li>
-                        <li><a href="#">Panopto Video</a></li>
-                        <li><a href="#">Discussions</a></li>
-                        <li><a href="#">Announcements</a></li>
-                        <li><a href="#">Pages</a></li>
-                        <li><a href="#">Files</a></li>
-                        <li><a href="#">Rubrics</a></li>
-                        <li><a href="#">Outcomes</a></li>
-                        <li><a href="#">Collaborations</a></li>
-                        <li><a href="#">Syllabus</a></li>
-                        <li><a href="/kanbas/Courses/Settings/CourseDetails/coursedetails.html">Settings</a></li>
-                    </ul>               
+                <td>Assignment Names
+                    <input placeholder="Search Assingments"/>
                 </td>
-                <td valign="top">
-                    <select>
-                        <option>Gradebook</option>
-                        <option>UnPublish</option>
-                    </select>
-                    <button>Import</button>
-                    <select>
-                        <option>Export</option>
-                        <option>UnPublish</option>
-                    </select>
-                    <button>Configure</button>
-                    
-                    <table witdth = "100%">
-                        <tr>
-                            <td>Student Names
-                                <input title="Type the name of the student to search for"  placeholder="Search Students"/>
-                            </td>
-                            <td>Assignment Names
-                                <input placeholder="Search Assingments"/>
-                            </td>
-                    
-                        </tr>
-                    </table>
-                    
-                    <button>Apply Filters</button>
-                    
-                    <table border="1" witdth = "100%">
-                        <thead>
-                            <tr>
-                                <th>Student Name</th>
-                                <th>A1 SETUP Out of 100</th>
-                                <th>A2 HTML Out of 100</th>
-                                <th>A3 CSS Out of 100</th>
-                                <th>A4 BOOTSTRAP Out of 100</th>
-                                <th>A5 JAVASCRIPT Out of 100</th>
-                                <th>A6 REACT Out of 100</th>
-                                <th>A7 REDUX Out of 100</th>
-                                <th>A8 NODE Out of 100</th>
-                                <th>A9 MONGO Out of 100</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Alice Wonderland</td>
-                                <td>100</td>
-                                <td>98</td>
-                                <td>97</td>
-                                <td>96</td>
-                                <td>99</td>
-                                <td>100</td>
-                                <td>100</td>
-                                <td>96</td>
-                                <td>95</td>
-                            </tr>
-                            <tr>
-                                <td>Princess Leia</td>
-                                <td>100</td>
-                                <td>98</td>
-                                <td>97</td>
-                                <td>96</td>
-                                <td>99</td>
-                                <td><input value="85" type="number"></td>
-                                <td>100</td>
-                                <td>96</td>
-                                <td>95</td>
-                            </tr>
-                            <tr>
-                                <td>Luke Skywalker</td>
-                                <td><input value="99" type="number"></td>
-                                <td>98</td>
-                                <td>97</td>
-                                <td>96</td>
-                                <td>99</td>
-                                <td>100</td>
-                                <td>100</td>
-                                <td>96</td>
-                                <td>95</td>
-                            </tr>
-                            <tr>
-                                <td>Han Solo</td>
-                                <td>100</td>
-                                <td>98</td>
-                                <td>97</td>
-                                <td>96</td>
-                                <td>99</td>
-                                <td>100</td>
-                                <td><input value="86" type="number"></td>
-                                <td>96</td>
-                                <td>95</td>
-                            </tr>
-                            <tr>
-                                <td>Lando Calresian</td>
-                                <td>100</td>
-                                <td><input value="82" type="number"></td>
-                                <td>97</td>
-                                <td>96</td>
-                                <td>99</td>
-                                <td>100</td>
-                                <td>100</td>
-                                <td>96</td>
-                                <td>95</td>
-                            </tr>
-                            <tr>
-                                <td>Boba Fet</td>
-                                <td>100</td>
-                                <td>98</td>
-                                <td>97</td>
-                                <td>96</td>
-                                <td>99</td>
-                                <td>100</td>
-                                <td>100</td>
-                                <td>96</td>
-                                <td>95</td>
-                            </tr>
-                            <tr>
-                                <td>Darth Vader</td>
-                                <td>100</td>
-                                <td>98</td>
-                                <td><input value="90" type="number"></td>
-                                <td>96</td>
-                                <td>99</td>
-                                <td>100</td>
-                                <td>100</td>
-                                <td>96</td>
-                                <td>95</td>
-                            </tr>
-                            <tr>
-                                <td>Obi-Wan Kenobi</td>
-                                <td><input value="85" type="number"></td>
-                                <td>98</td>
-                                <td>97</td>
-                                <td>96</td>
-                                <td>99</td>
-                                <td>100</td>
-                                <td>100</td>
-                                <td>96</td>
-                                <td>95</td>
-                            </tr>
-                            <tr>
-                                <td>R2-D2</td>
-                                <td>100</td>
-                                <td><input value="82" type="number"></td>
-                                <td><input value="81" type="number"></td>
-                                <td>96</td>
-                                <td>99</td>
-                                <td><input value="84" type="number"></td>
-                                <td>100</td>
-                                <td>96</td>
-                                <td>95</td>
-                            </tr>
-                            <tr>
-                                <td>C-3PO</td>
-                                <td>100</td>
-                                <td>98</td>
-                                <td>97</td>
-                                <td>96</td>
-                                <td>99</td>
-                                <td>100</td>
-                                <td>100</td>
-                                <td>96</td>
-                                <td>95</td>
-                            </tr>
-                            <tr>
-                                <td>Yoda</td>
-                                <td>100</td>
-                                <td>98</td>
-                                <td>97</td>
-                                <td>96</td>
-                                <td>99</td>
-                                <td>100</td>
-                                <td>100</td>
-                                <td>96</td>
-                                <td>95</td>
-                            </tr>
-                            <tr>
-                                <td>Admiral Ackbar</td>
-                                <td>100</td>
-                                <td>98</td>
-                                <td>97</td>
-                                <td>96</td>
-                                <td><input value="93" type="number"></td>
-                                <td>100</td>
-                                <td>100</td>
-                                <td>96</td>
-                                <td>95</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>              
+        
             </tr>
-        </tbody>
-    </table>
+        </table >
+        
+        <button>Apply Filters</button>
+        
+        <table class="table" >
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>A1 SETUP Out of 100</th>
+                    <th>A2 HTML Out of 100</th>
+                    <th>A3 CSS Out of 100</th>
+                    <th>A4 BOOTSTRAP Out of 100</th>
+                    <th>A5 JAVASCRIPT Out of 100</th>
+                    <th>A6 REACT Out of 100</th>
+                    <th>A7 REDUX Out of 100</th>
+                    <th>A8 NODE Out of 100</th>
+                    <th>A9 MONGO Out of 100</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alice Wonderland</td>
+                    <td>100</td>
+                    <td>98</td>
+                    <td>97</td>
+                    <td>96</td>
+                    <td>99</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>96</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>Princess Leia</td>
+                    <td>100</td>
+                    <td>98</td>
+                    <td>97</td>
+                    <td>96</td>
+                    <td>99</td>
+                    <td><input value="85" type="number"></td>
+                    <td>100</td>
+                    <td>96</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>Luke Skywalker</td>
+                    <td><input value="99" type="number"></td>
+                    <td>98</td>
+                    <td>97</td>
+                    <td>96</td>
+                    <td>99</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>96</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>Han Solo</td>
+                    <td>100</td>
+                    <td>98</td>
+                    <td>97</td>
+                    <td>96</td>
+                    <td>99</td>
+                    <td>100</td>
+                    <td><input value="86" type="number"></td>
+                    <td>96</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>Lando Calresian</td>
+                    <td>100</td>
+                    <td><input value="82" type="number"></td>
+                    <td>97</td>
+                    <td>96</td>
+                    <td>99</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>96</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>Boba Fet</td>
+                    <td>100</td>
+                    <td>98</td>
+                    <td>97</td>
+                    <td>96</td>
+                    <td>99</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>96</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>Darth Vader</td>
+                    <td>100</td>
+                    <td>98</td>
+                    <td><input value="90" type="number"></td>
+                    <td>96</td>
+                    <td>99</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>96</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>Obi-Wan Kenobi</td>
+                    <td><input value="85" type="number"></td>
+                    <td>98</td>
+                    <td>97</td>
+                    <td>96</td>
+                    <td>99</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>96</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>R2-D2</td>
+                    <td>100</td>
+                    <td><input value="82" type="number"></td>
+                    <td><input value="81" type="number"></td>
+                    <td>96</td>
+                    <td>99</td>
+                    <td><input value="84" type="number"></td>
+                    <td>100</td>
+                    <td>96</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>C-3PO</td>
+                    <td>100</td>
+                    <td>98</td>
+                    <td>97</td>
+                    <td>96</td>
+                    <td>99</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>96</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>Yoda</td>
+                    <td>100</td>
+                    <td>98</td>
+                    <td>97</td>
+                    <td>96</td>
+                    <td>99</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>96</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>Admiral Ackbar</td>
+                    <td>100</td>
+                    <td>98</td>
+                    <td>97</td>
+                    <td>96</td>
+                    <td><input value="93" type="number"></td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>96</td>
+                    <td>95</td>
+                </tr>
+            </tbody>
+        </table>   </div>
+        <div>                
+    </div>
 </body>
 </html>
+   
