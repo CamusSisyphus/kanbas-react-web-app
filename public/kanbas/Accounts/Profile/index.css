@@ -1,0 +1,40 @@
+ul.breadcrumb  {
+    padding: 10px 16px;
+    list-style:none;
+    font-size: 1.75rem;
+    font-weight: normal;
+    line-height: 1.5;
+  }
+  
+  p a {
+    color: red;
+    text-decoration: none;
+  }
+
+
+  ul.breadcrumb li a {
+    color: grey;
+    text-decoration: none;
+  }
+
+  ul.breadcrumb li i  {
+    color: red;
+
+  }
+
+  ul.breadcrumb li a:hover {
+    text-decoration: underline;
+  }
+
+  .fa-user{
+    color:grey;
+  }
+
+  button.float-end {
+    padding: 8px 14px;
+
+    line-height: 20px;
+    text-align: left;
+    margin: 5px auto;
+
+  }
