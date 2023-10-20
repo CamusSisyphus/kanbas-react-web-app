@@ -4,7 +4,7 @@ import Dashboard from "./Dashboard";
 import Courses from "./Courses";
 function Kanbas() {
    return (
-     <div className="d-flex">
+     <div className="d-flex" style={{ height: "100%"}}>
         <KanbasNavigation />
        <div>
 

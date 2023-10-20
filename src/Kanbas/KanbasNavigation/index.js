@@ -24,8 +24,8 @@ function KanbasNavigation() {
 
   const { pathname } = useLocation();
   return (
-    
-    <div className="list-group wd-kanbas-navigation" style={{ width: 150 }}>
+
+    <div className="list-group wd-kanbas-navigation sticky-top" style={{ width: 150 , height: "100%"}}>
       
       {links.map((link, index) => (
         <Link
