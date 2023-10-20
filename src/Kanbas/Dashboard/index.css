@@ -1,0 +1,12 @@
+.wd-dashboard-grid .col {
+    width: 270px;
+    height: 375px;
+}
+
+.wd-dashboard-grid .row {
+    margin-bottom: 10px;
+}
+
+.wd-flex-grow-1{
+    flex-grow: 1;
+}

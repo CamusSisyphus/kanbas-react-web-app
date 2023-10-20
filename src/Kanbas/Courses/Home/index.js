@@ -1,11 +1,20 @@
 import ModuleList from "../Modules/ModuleList";
+import ModButtons from "../Modules/ModButtons";
+import Status from "./Status";
+
 function Home() {
-    return (
-      <div>
-        <h2>Home</h2>
-        <ModuleList />
-        <h2>Status</h2>
-      </div>
-    );
-  }
-  export default Home;
+  return (
+    <div className="row">
+        <div className="col-10">
+            <h2>Module</h2>
+            <ModButtons />
+            <ModuleList />
+        </div>
+        <div className="col-2">
+        <Status
+ />
+        </div>
+    </div>
+  );
+}
+export default Home;
