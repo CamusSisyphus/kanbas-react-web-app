@@ -17,8 +17,8 @@ function Courses() {
   return (
     <div>
        { pathlength <= 5 ? 
-      <h1><span style={{color:"red"}}><AiOutlineMenu/> {course.name} </span> <LiaGreaterThanSolid/> {pathlist[pathlist.length-1]} </h1>
-       :       <h1><span style={{color:"red"}}><AiOutlineMenu/> {course.name} <LiaGreaterThanSolid/> {pathlist[pathlist.length-2]}  </span> <LiaGreaterThanSolid/> {pathlist[pathlist.length-1]} </h1> }  
+      <h3><span style={{color:"red"}}><AiOutlineMenu/> {course.name} </span> <LiaGreaterThanSolid/> {pathlist[pathlist.length-1]} </h3>
+       :       <h3><span style={{color:"red"}}><AiOutlineMenu/> {course.name} <LiaGreaterThanSolid/> {pathlist[pathlist.length-2]}  </span> <LiaGreaterThanSolid/> {pathlist[pathlist.length-1]} </h3> }  
 
       <CourseNavigation />
       <div>
