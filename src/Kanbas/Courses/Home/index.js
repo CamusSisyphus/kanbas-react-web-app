@@ -11,8 +11,7 @@ function Home() {
             <ModuleList />
         </div>
         <div className="col-2">
-        <Status
- />
+        <Status />
         </div>
     </div>
   );

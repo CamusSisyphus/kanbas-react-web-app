@@ -8,12 +8,12 @@ import AssignmentEditor from "./Assignments/AssignmentEditor";
 import Grades from "./Grades";
 import {AiOutlineMenu} from "react-icons/ai";
 import {LiaGreaterThanSolid} from "react-icons/lia";
-function Courses() {
+function Courses({ courses }) {
   const { courseId } = useParams();
   const  {pathname} = useLocation();
   const pathlist = pathname.split("/");
   let pathlength = pathlist.length 
-  const course = db.courses.find((course) => course._id === courseId);
+  const course = courses.find((course) => course._id === courseId);
   return (
     <div>
        { pathlength <= 5 ? 
