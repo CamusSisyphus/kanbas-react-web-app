@@ -1,4 +1,3 @@
-import db from "../Database";
 import { Link } from "react-router-dom";
 import { React, useState } from "react";
 import "./index.css";
@@ -63,7 +62,7 @@ function Dashboard({ courses, course, setCourse, addNewCourse,
             <button className="btn btn-danger"
               onClick={(event) => {
                 event.preventDefault();
-                deleteCourse(course._id);
+                deleteCourse(course);
               }}>
               Delete
             </button></div>
