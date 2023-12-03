@@ -10,7 +10,8 @@ import Grades from "./Grades";
 import {AiOutlineMenu} from "react-icons/ai";
 import {LiaGreaterThanSolid} from "react-icons/lia";
 function Courses({ }) {
-  const URL = "https://kanbas-node-server-app-mw8j.onrender.com/api/courses";
+  
+  const URL = "e/courses";
   const { courseId } = useParams();
   const { pathname } = useLocation();
   const [course, setCourse] = useState({});

@@ -21,6 +21,17 @@ function Labs() {
             >
               Kanbas
             </Link>
+
+          </div><hr/>
+          <h2>Project</h2>
+          <div className="nav nav-pills">
+            <Link
+                to="/project"
+                className={`nav-link ${pathname.includes("project") ? "active" : ""}`}
+            >
+              Project
+            </Link>
+
           </div><hr/>
           <h2>Labs</h2>
           <div className="nav nav-pills">

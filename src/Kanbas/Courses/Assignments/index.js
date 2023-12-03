@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import "./index.css";
-import AssignmentItem from "./AssignmentItem";
+import AssignmentItem from "./AssignmentItem.js";
 import AssignHeader from "./AssignHeader";
 import { useSelector } from "react-redux";
 import { useEffect } from "react";

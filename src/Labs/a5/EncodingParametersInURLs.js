@@ -5,7 +5,7 @@ function EncodingParametersInURLs() {
   const [a, setA] = useState(34);
   const [b, setB] = useState(23);
 
-  // 3.4.3 Sending and fetching data to and from an HTTP server
+
   const [result, setResult] = useState(0);
   const fetchSum = async (a, b) => {
     const response = await
@@ -18,7 +18,6 @@ function EncodingParametersInURLs() {
     setResult(response.data);
   };
 
-  // 3.4.1 Asynchronous JavaScript and XML
   const [welcome, setWelcome] = useState("");
   const fetchWelcome = async () => {
     const response = await axios.get("http://localhost:4000/a5/welcome");
@@ -34,7 +33,6 @@ function EncodingParametersInURLs() {
         <div>
           <h3>Encoding Parameters In URLs</h3>
 
-          {/*3.4.1 Asynchronous JavaScript and XML*/}
           <h4>Integrating React with APIs</h4>
           <h5>Fetching Welcome</h5>
           <h6>{welcome}</h6>
@@ -47,7 +45,6 @@ function EncodingParametersInURLs() {
               onChange={(e) => setB(e.target.value)}
               className="form-control" type="number" value={b}/>
 
-          {/*3.4.3 Sending and fetching data to and from an HTTP server*/}
           <input value={result}
                  className="form-control mb-2" type="number" readOnly
           />

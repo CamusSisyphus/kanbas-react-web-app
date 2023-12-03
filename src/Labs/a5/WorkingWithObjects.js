@@ -13,7 +13,6 @@ function WorkingWithObjects() {
   });
   const URL = "http://localhost:4000/a5/assignment";
 
-  // 3.4.4. Fetching and updating objects
   const fetchAssignment = async () => {
     const response = await axios.get(`${URL}`);
     setAssignment(response.data);
@@ -51,7 +50,7 @@ function WorkingWithObjects() {
         <div>
           <h4>Modifying Properties</h4>
           <div>
-          {/*3.2.3 Modifying Objects */}
+
             <a
                 href={`${URL}/title/${assignment.title}`}
                 className="btn btn-primary me-2 float-end"
@@ -65,7 +64,7 @@ function WorkingWithObjects() {
                 className="form-control mb-2 w-75"
                 type="text" /><br/>
 
-          {/*3.2.4 Extra Credit*/}
+
             <a
                 href={`${URL}/score/${assignment.score}`}
                 className="btn btn-primary me-2 float-end"
@@ -94,7 +93,7 @@ function WorkingWithObjects() {
 
 
 
-            {/*A5: 3.4.4 - Fetching and updating objects*/}
+
             <button onClick={updateTitle} className="w-100 btn btn-primary mb-2">
               <a
                   href={`${URL}/${assignment.id}/assignment/${assignment.title}`}
