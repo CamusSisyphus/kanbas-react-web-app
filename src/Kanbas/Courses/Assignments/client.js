@@ -1,5 +1,5 @@
 import axios from "axios";
-const ASSIGNMENT_URL = "https://kanbas-node-server-app-mw8j.onrender.com//api/assignments";
+const ASSIGNMENT_URL = "https://kanbas-node-server-app-mw8j.onrender.com/api/assignments";
 const COURSES_URL = "https://kanbas-node-server-app-mw8j.onrender.com/api/courses";
 
 export const updateAssignment = async (assignment) => {
