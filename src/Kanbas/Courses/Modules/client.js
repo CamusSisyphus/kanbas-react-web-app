@@ -1,7 +1,7 @@
 import axios from "axios";
-const COURSES_URL = "https://kanbas-node-server-app-mw8j.onrender.com//api/courses";
+const COURSES_URL = "https://kanbas-node-server-app-mw8j.onrender.com/api/courses";
 
-const MODULES_URL = "https://kanbas-node-server-app-mw8j.onrender.com//api/modules";
+const MODULES_URL = "https://kanbas-node-server-app-mw8j.onrender.com/api/modules";
 export const deleteModule = async (moduleId) => {
   const response = await axios.delete(`${MODULES_URL}/${moduleId}`);
   return response.data;

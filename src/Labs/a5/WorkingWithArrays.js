@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 function WorkingWithArrays() {
-  const API = "https://kanbas-node-server-app-mw8j.onrender.com//a5/todos";
+  const API = "https://kanbas-node-server-app-mw8j.onrender.com/a5/todos";
   const [errorMessage, setErrorMessage] = useState(null);
 
   const [todo, setTodo] = useState({
