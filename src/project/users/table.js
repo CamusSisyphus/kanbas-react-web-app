@@ -22,7 +22,7 @@ function UserTable() {
       const u = await client.findUserById(user._id);
       setUser(u);
     } catch (err) {
-    //   console.log(err);
+      console.log(err);
     }
   };
   const updateUser = async () => {
