@@ -50,7 +50,7 @@ function Account() {
           <input className="form-control mb-2" value={account.lastName}
             onChange={(e) => setAccount({ ...account,
               lastName: e.target.value })}/>
-          <input className="form-control mb-2" value={account.dob}
+          <input type="date" className="form-control mb-2" value={account.dob}
             onChange={(e) => setAccount({ ...account,
               dob: e.target.value })}/>
           <input type="email"  className="form-control mb-2" value={account.email}
