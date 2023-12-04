@@ -44,7 +44,7 @@ export const deleteUser = async (user) => {
 };
 
 export const findUsersByRole = async (role) => {
-  const response = await request.get(`${USERS_API}/?role=${role}`);
+  const response = await request.get(`${USERS_API}/role/${role}`);
   return response.data;
 };
 export const findUserById = async (id) => {
